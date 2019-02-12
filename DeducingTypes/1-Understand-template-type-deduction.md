@@ -295,7 +295,7 @@ std::array<int, arraySize(keyVals)> mappedVals; // mappedVals长度是七
 
 ##函数参数
 
-数组并不是C++唯一可以退化成指针的东西。函数类型可以被退化成函数指针，和我们之前讨论的数组的推导类似，函数可以被推华城函数指针：
+数组并不是C++唯一可以退化成指针的东西。函数类型可以被退化成函数指针，和我们之前讨论的数组的推导类似，函数可以被退化成函数指针：
 
 ```cpp
 void someFunc(int， double);    // someFunc是一个函数
